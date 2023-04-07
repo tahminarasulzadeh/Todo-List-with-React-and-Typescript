@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&display=swap");
+
+.App {
+
+  background-color: #71a0e2;
+ 
+  min-height: 45rem;
+  padding-top: 3rem;
+  p {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Anuphan', sans-serif;
+    
+  }
+  .todo-form, .list {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }  
+
+  
+  .isDone {
+    color: green;
+  }
+  
+}

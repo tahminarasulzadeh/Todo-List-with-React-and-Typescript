@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&display=swap");
+
+
+  
+  .todos__single {
+    border-radius: 5px;
+    display: flex;
+
+    justify-content: space-around;
+    width: 27rem;
+    padding: 15px;
+    background-color: rgb(205, 171, 50);
+    margin-top: 1rem;
+
+    .todos__single--text {
+      margin-left: 1rem;
+      font-size: 16px;
+      font-family: "Anuphan", sans-serif;
+    }
+
+    .icon {
+      margin-left: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .edit-input{
+      width: 10rem;
+      height: 1rem;
+      margin-top: .3rem;
+    }
+
+  }
